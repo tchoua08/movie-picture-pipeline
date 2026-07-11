@@ -10,8 +10,8 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  EKS_CLUSTER_NAME: <CLUSTER_NAME>
-  ECR_REPOSITORY: <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/backend
+  EKS_CLUSTER_NAME: cluster
+  ECR_REPOSITORY: 402282685369.dkr.ecr.us-east-1.amazonaws.com/backend
 
 jobs:
   lint:
